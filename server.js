@@ -6,7 +6,7 @@ app.set('trust proxy', true)
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send("Server is running successfully🎉")
+    res.send("Server is running successfully🎉jfjfjf")
 })
 
 app.get('/ip', (req, res) => {
