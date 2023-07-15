@@ -6,7 +6,7 @@ app.set('trust proxy', true)
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send("Server is running successfully🎉jfjfjf")
+    res.send(`Server is running successfully🎉 To Get Your Device's ip send GET request to "https://get-my-ip-by-subrata.onrender.com/ip"`)
 })
 
 app.get('/ip', (req, res) => {
